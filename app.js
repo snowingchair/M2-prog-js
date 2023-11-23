@@ -2,12 +2,17 @@ class app
 {
     runApplication()
     {
-        console.log("hello world!")
+        this.greeting = "starting up"
     }
 }
 
-let app = new app();
-app.runApplication(this,appNaam = "mijnapp")
+this app = new app();
+app.runApplication();
+
+console.log(app.greeting);
+console.log("appNaam: " + app.appNaam);
+console.log("versienummer: " + app.versienummer);
+(this,appNaam = "mijnapp")
 (this,versienummer = "0.1")
 (this,versiedatum  = "21/11/23")
 (this,autheur = "Samuel Enderink")
