@@ -6,7 +6,7 @@ class app
     }
 }
 
-this app = new app();
+this.app = new app();
 app.runApplication();
 
 console.log(app.greeting);
